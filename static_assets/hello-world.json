@@ -1,0 +1,98 @@
+{
+	"name":"CPS Lab Tour",
+	"defaults":{
+		"infos":{
+			"icon":"icons/red-heart.png"
+		}
+	},
+	"firstSceneId":"Entrance",
+	"scenes":[
+		{
+			"id":"Entrance",
+			"photopanos":[
+				{"src":"lab1.jpg","rotateY": 75}
+			],
+			"navs":[
+				{"to":"Television","txt":"Move", "rotateY": 75},
+				{"to":"3DPrinter", "txt":"Move", "rotateY":0}
+			],
+			"preloads":[
+				{"src":"lab2.jpg"},
+				{"src":"lab3.jpg"}
+			]
+		},
+		{
+			"id":"Television",
+			"photopanos":[
+				{"src":"lab2.jpg","rotateY": -20, "rotateX": -20}
+			],
+			"navs":[
+				{"to":"Entrance","txt":"Move", "rotateY": 160}
+			],
+			"infos":[
+				{
+					"card":[
+						{"type":"header","txt":"4Kテレビ","ratio":1.7},
+						{"type":"content","txt":"研究室生活には欠かせないテレビ。AppleTVやゲームもあり、研究生活の「息抜き」になっている","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/ideas-cinema.png",
+					"iconWidth":0.75,
+					"iconHeight":1.5,
+					"rotateY":305
+				}
+			],
+			"preloads":[
+				{"src":"lab1.jpg"}
+			]
+		},
+		{
+			"id":"3DPrinter",
+			"photopanos":[
+				{"src":"lab3.jpg","rotateY":90}
+			],
+			"navs":[
+				{"to":"Window", "txt":"Move", "rotateY":180},
+				{"to":"Entrance", "txt":"Move", "rotateY": -90}
+			],
+            "infos":[
+                {
+	                "card":[                                        
+                        {"type":"image","src":"garden-table.jpg","ratio":1.9,"borderWidth":0},
+                        {"type":"header","txt":"Time for Code!"},
+                        {"type":"content","txt":"Follow the instructions in the Github ReadMe to add your React VR component to this scene. Easy and fast.","textColor":"#000000","fontSize":0.12},
+						{"type":"content","txt":"I hope you will enjoy LiveTourLab. We built the world's best live tour platform and now we give it away for free as open source, challenging several billion dollar companies. With great love and respect, I invite you to take part in creating this entirely new media format."},
+						{"type":"content","txt":"Please Star & Watch the repo on Github. It matters. And it would mean a great deal to me. Thank you"},
+                        {"type":"footer","txt":"anders@livetourlab.com"},
+                        {"type":"row","buttons":[
+							{"txt":"GitHub","uri":"https://github.com/livetourlab/live-tour-lab"},
+							{"txt":"E-mail","uri":"mailto:anders@livetourlab.com"},
+							{"txt":"Msg","uri":"https://m.me/livetourlab"},
+							{"txt":"Call","uri":"tel:0123456789"}
+                        ]}
+	                ],
+	                "width":3,
+	                "backgroundColor":"#ffffffee",
+	                "rotateY":0,
+	                "rotateX":5
+                }
+            ],
+			"preloads":[
+				{"src":"garden-table.jpg"}
+			]
+		},
+		{
+			"id":"Window",
+			"photopanos":[
+				{"src":"lab4.jpg","rotateY":90}
+			],
+			"navs": [
+				{"to":"3DPrinter","txt":"Move","rotateY":-50}
+			]
+		}
+	]
+}
+
+
+
