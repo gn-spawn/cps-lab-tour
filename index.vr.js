@@ -11,7 +11,7 @@ export default class cps_lab_tour extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('theta.jpg')}/>
+        <Pano source={asset('lab1.jpg')}/>
         <Text
           style={{
             backgroundColor: '#777879',
