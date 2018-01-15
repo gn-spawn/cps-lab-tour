@@ -11,7 +11,10 @@ export default class cps_lab_tour extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('lab1.jpg')}/>
+        <Pano source={asset('lab1.jpg')}
+        style={{
+          transform: [{rotateY: -80}]
+        }}/>
         <Text
           style={{
             backgroundColor: '#777879',
