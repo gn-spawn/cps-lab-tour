@@ -37,10 +37,49 @@
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
-					"icon":"icons/ideas-cinema.png",
-					"iconWidth":0.75,
-					"iconHeight":1.5,
-					"rotateY":305
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":295,
+					"rotateX":-15
+				},
+				{
+					"card":[
+						{"type":"header","txt":"ホワイトボード","ratio":1.7},
+						{"type":"content","txt":"いろいろ書ける","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":90
+				},
+				{
+					"card":[
+						{"type":"header","txt":"食品","ratio":1.7},
+						{"type":"content","txt":"いろいろな食材","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":10,
+					"rotateX":-10
+				},
+				{
+					"card":[
+						{"type":"header","txt":"れいぞう","ratio":1.7},
+						{"type":"content","txt":"いろいろな食材","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-22,
+					"rotateX":-10
 				}
 			],
 			"preloads":[
