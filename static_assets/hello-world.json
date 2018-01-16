@@ -95,28 +95,86 @@
 				{"to":"Window", "txt":"Move", "rotateY":180},
 				{"to":"Entrance", "txt":"Move", "rotateY": -90}
 			],
-            "infos":[
-                {
-	                "card":[                                        
-                        {"type":"image","src":"garden-table.jpg","ratio":1.9,"borderWidth":0},
-                        {"type":"header","txt":"Time for Code!"},
-                        {"type":"content","txt":"Follow the instructions in the Github ReadMe to add your React VR component to this scene. Easy and fast.","textColor":"#000000","fontSize":0.12},
-						{"type":"content","txt":"I hope you will enjoy LiveTourLab. We built the world's best live tour platform and now we give it away for free as open source, challenging several billion dollar companies. With great love and respect, I invite you to take part in creating this entirely new media format."},
-						{"type":"content","txt":"Please Star & Watch the repo on Github. It matters. And it would mean a great deal to me. Thank you"},
-                        {"type":"footer","txt":"anders@livetourlab.com"},
-                        {"type":"row","buttons":[
-							{"txt":"GitHub","uri":"https://github.com/livetourlab/live-tour-lab"},
-							{"txt":"E-mail","uri":"mailto:anders@livetourlab.com"},
-							{"txt":"Msg","uri":"https://m.me/livetourlab"},
-							{"txt":"Call","uri":"tel:0123456789"}
-                        ]}
-	                ],
-	                "width":3,
-	                "backgroundColor":"#ffffffee",
-	                "rotateY":0,
-	                "rotateX":5
-                }
-            ],
+      "infos":[
+        {
+	        "card":[
+            {"type":"header","txt":"3Dプリンター","textColor":"white"},
+						{"type":"content","txt":"これは3Dプリンターです","textColor":"white","fontSize":0.3}
+	   			],
+	        "width":3,
+	        "backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+	        "rotateY":3,
+	        "rotateX":-25
+        },
+				{
+					"card":[
+						{"type":"header","txt":"収納ボックス","textColor":"white"},
+						{"type":"content","txt":"センサーやケーブル、開発器具を入れる。きちんとしまおう！","textColor":"white","fontSize":0.3}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-40,
+					"rotateX":0
+				},
+				{
+					"card":[
+						{"type":"header","txt":"作業台","textColor":"white"},
+						{"type":"content","txt":"はんだごてやドリルなどが置いてある、電子工作向けの作業台。挑戦しよう！","textColor":"white","fontSize":0.3}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":95,
+					"rotateX":-25
+				},
+				{
+					"card":[
+						{"type":"header","txt":"秘書の席","textColor":"white"},
+						{"type":"content","txt":"海老原さんの席。文房具もこのあたりにまとめてある。挨拶しよう！","textColor":"white","fontSize":0.3}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":200,
+					"rotateX":-15
+				},
+				{
+					"card":[
+						{"type":"header","txt":"ゴミ箱","textColor":"white"},
+						{"type":"content","txt":"自分で出したゴミはゴミ箱に捨てよう！","textColor":"white","fontSize":0.3}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-53,
+					"rotateX":-25
+				},
+				{
+					"card":[
+						{"type":"header","txt":"プリンター","textColor":"white"},
+						{"type":"content","txt":"研究室でメインとなるプリンター。設定しよう！","textColor":"white","fontSize":0.3}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":13,
+	        "rotateX":-12
+				}
+			],
 			"preloads":[
 				{"src":"garden-table.jpg"}
 			]
@@ -132,6 +190,3 @@
 		}
 	]
 }
-
-
-
