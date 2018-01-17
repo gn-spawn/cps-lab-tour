@@ -99,10 +99,11 @@
         {
 	        "card":[
             {"type":"header","txt":"3Dプリンター","textColor":"white"},
-						{"type":"content","txt":"これは3Dプリンターです","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"これは3Dプリンターです","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"3dprinter.jpg"}
 	   			],
 	        "width":3,
-	        "backgroundColor":"#00000055",
+	        "backgroundColor":"#00000099",
 					"icon":"icons/info.png",
 					"iconWidth":0.3,
 					"iconHeight":0.3,
@@ -112,7 +113,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"収納ボックス","textColor":"white"},
-						{"type":"content","txt":"センサーやケーブル、開発器具を入れる。きちんとしまおう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"センサーやケーブル、開発器具を入れる。きちんとしまおう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"items_box.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -125,7 +127,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"作業台","textColor":"white"},
-						{"type":"content","txt":"はんだごてやドリルなどが置いてある、電子工作向けの作業台。挑戦しよう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"はんだごてやドリルなどが置いてある、電子工作向けの作業台。挑戦しよう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"craft_area.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -151,7 +154,7 @@
 				{
 					"card":[
 						{"type":"header","txt":"ゴミ箱","textColor":"white"},
-						{"type":"content","txt":"自分で出したゴミはゴミ箱に捨てよう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"自分のゴミは自分で捨てよう!","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -164,7 +167,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"プリンター","textColor":"white"},
-						{"type":"content","txt":"研究室でメインとなるプリンター。設定しよう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"研究室でメインとなるプリンター。設定しよう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"printer.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -173,6 +177,20 @@
 					"iconHeight":0.3,
 					"rotateY":13,
 	        "rotateX":-12
+				},
+				{
+					"card":[
+						{"type":"header","txt":"ねどこ","textColor":"white"},
+						{"type":"content","txt":"机の下に潜って寝る。おもったより寝心地はいいぞ！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"sleeping_under_the_desk.jpg"}
+					],
+					"width":3,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":131,
+					"rotateX":-35
 				}
 			],
 			"preloads":[
@@ -191,7 +209,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"窓","textColor":"white"},
-						{"type":"content","txt":"景色はいい。見おろそう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"景色はいい。見おろそう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"night_scene_from_window.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000099",
@@ -217,7 +236,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"チェア","textColor":"white"},
-						{"type":"content","txt":"時には椅子、時にはベッドになる。寝よう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"時には椅子、時にはベッドになる。寝よう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"sleeping_char.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -243,7 +263,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"用具箱","textColor":"white"},
-						{"type":"content","txt":"細かい用具はここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"細かい用具はここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.3},
+						{"type":"image","src":"small_items_box.jpg"}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
