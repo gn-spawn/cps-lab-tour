@@ -17,7 +17,9 @@
 					"card":[
 						{"type":"header","txt":"4Kモニター","ratio":1.7},
 						{"type":"image","src":"4kmonitor.jpg"},
-						{"type":"content","txt":"デカすぎて逆に見づらいモニター。画像処理系の開発の際に力を発揮しそう。","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"デカすぎて逆に見づらいモニター。","textColor":"white","fontSize":0.23},
+						{"type":"header","txt":"画像処理系の開発の際に力を発揮しそう。","textColor":"white","fontSize":0.23}
+						
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -33,7 +35,9 @@
 					"card":[
 						{"type":"header","txt":"モンスターPC","ratio":1.7, "textColor":"white"},
 						{"type":"image","src":"monster.jpg"},
-						{"type":"content","txt":"めっちゃハイスペック。GPUにTitanX二枚刺しのバケモン","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"めっちゃハイスペック。","textColor":"white","fontSize":0.23},
+						{"type":"header","txt":"GPUにTitanX二枚刺しのバケモン","textColor":"white","fontSize":0.23}
+						
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -49,7 +53,7 @@
 					"card":[
 						{"type":"header","txt":"サイネージとお天気IoT","ratio":1.7, "textColor":"white"},
 						{"type":"image","src":"iot.jpg"},
-						{"type":"content","txt":"天気とか気温とか時間とか見れる。便利","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"天気とか気温とか時間とか見れる。便利","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -65,7 +69,7 @@
 					"card":[
 						{"type":"header","txt":"靴箱","ratio":1.7, "textColor":"white"},
 						{"type":"image","src":"shoesbox.jpg"},
-						{"type":"content","txt":"整理されていることは少ない","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"整理されていることは少ない","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -81,7 +85,7 @@
 					"card":[
 						{"type":"header","txt":"ボルダリングのホールド","ratio":1.7, "textColor":"white"},
 						{"type":"image","src":"hold.jpg"},
-						{"type":"content","txt":"鍛えよう！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"鍛えよう！","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -116,7 +120,8 @@
 					"card":[
 						{"type":"header","txt":"4Kテレビ","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"tv.jpg"},
-						{"type":"content","txt":"研究室生活には欠かせないテレビ。AppleTVやゲームもあり、研究生活の「息抜き」になっている","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"研究室生活には欠かせないテレビ。","textColor":"white","fontSize":0.23},
+						{"type":"header","txt":"AppleTVやゲームもあり、研究生活の「息抜き」になっている","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -132,7 +137,8 @@
 					"card":[
 						{"type":"header","txt":"ベッド","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"bed.jpg"},
-						{"type":"content","txt":"最も人権があり快適な寝床。ソファとしても使える","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"最も人権があり快適な寝床。","textColor":"white","fontSize":0.23},
+						{"type":"header","txt":"ソファとしても使える","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -148,7 +154,8 @@
 					"card":[
 						{"type":"header","txt":"冷蔵庫と電子レンジ","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"freezer.jpg"},
-						{"type":"content","txt":"お酒や飲み物で埋め尽くされている。電子レンジでレトルト食品を食べれば食費が浮くぞ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"お酒や飲み物で埋め尽くされている。","textColor":"white","fontSize":0.23},
+						{"type":"header","txt":"電子レンジでレトルト食品を食べれば食費が浮くぞ！","textColor":"white","fontSize":0.23}						
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -164,7 +171,7 @@
 					"card":[
 						{"type":"header","txt":"炊飯器とポッド","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"pod.jpg"},
-						{"type":"content","txt":"お惣菜を買ってきて焚いた米を食べると優勝できる。","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"お惣菜を買ってきて焚いた米を食べると優勝できる。","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -180,7 +187,7 @@
 					"card":[
 						{"type":"header","txt":"レトルト食品たち","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"food.jpg"},
-						{"type":"content","txt":"残留飯の要。レトルト食品とご飯を炊けば完璧だ","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"残留飯の要。レトルト食品とご飯を炊けば完璧だ","textColor":"white","fontSize":0.23}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -211,7 +218,7 @@
 	        "card":[
             {"type":"header","txt":"3Dプリンター","textColor":"white"},
 						{"type":"image","src":"3dprinter.jpg"},
-						{"type":"content","txt":"3台ある。どんどん印刷しようぜ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"3台ある。どんどん印刷しようぜ！","textColor":"white","fontSize":0.23}
 	   			],
 	        "width":3.5,
 	        "backgroundColor":"#00000055",
@@ -227,7 +234,7 @@
 					"card":[
 						{"type":"header","txt":"収納ボックス","textColor":"white"},
 						{"type":"image","src":"items_box.jpg"},
-						{"type":"content","txt":"センサーやケーブルなど、様々な部品を入れる。出したらきちんとしまおう！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"センサーやケーブルなど、様々な部品を入れる。出したらきちんとしまおう！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -243,7 +250,7 @@
 					"card":[
 						{"type":"header","txt":"作業台","textColor":"white"},
 						{"type":"image","src":"craft_area.jpg"},
-						{"type":"content","txt":"はんだごてやドリルなどがある、電子工作向けの作業台。怪我には気をつけよう！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"はんだごてやドリルなどがある、電子工作向けの作業台。怪我には気をつけよう！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -258,7 +265,7 @@
 				{
 					"card":[
 						{"type":"header","txt":"秘書の席","textColor":"white"},
-						{"type":"content","txt":"岩井研の秘書海老原さんの席。文房具はこのあたりにまとめてあるぞ。","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"岩井研の秘書海老原さんの席。文房具はこのあたりにまとめてあるぞ。","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -273,7 +280,7 @@
 				{
 					"card":[
 						{"type":"header","txt":"ゴミ箱","textColor":"white"},
-						{"type":"content","txt":"自分のゴミは自分で捨てよう!","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"自分のゴミは自分で捨てよう!","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -289,7 +296,7 @@
 					"card":[
 						{"type":"header","txt":"プリンター","textColor":"white"},
 						{"type":"image","src":"printer.jpg"},
-						{"type":"content","txt":"研究室でメインとなるプリンター。いざという時のために設定しておくといいぞ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"研究室でメインとなるプリンター。いざという時のために設定しておくといいぞ！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -305,7 +312,7 @@
 					"card":[
 						{"type":"header","txt":"ねどこ","textColor":"white"},
 						{"type":"image","src":"sleeping_under_the_desk.jpg"},
-						{"type":"content","txt":"机の下に潜って寝る。寝心地は悪くないぞ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"机の下に潜って寝る。寝心地は悪くないぞ！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -335,7 +342,7 @@
 					"card":[
 						{"type":"header","txt":"窓","textColor":"white"},
 						{"type":"image","src":"night_scene_from_window.jpg"},
-						{"type":"content","txt":"景色が結構いい。側のボタンからブラインドの開閉ができるぞ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"景色が結構いい。側のボタンからブラインドの開閉ができるぞ！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000099",
@@ -350,7 +357,7 @@
 				{
 					"card":[
 						{"type":"header","txt":"用具ラック","textColor":"white"},
-						{"type":"content","txt":"掃除用具やカメラが置いてある。足元は割ときたないぞ。","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"掃除用具やカメラが置いてある。足元は割ときたないぞ。","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -366,7 +373,7 @@
 					"card":[
 						{"type":"header","txt":"リクライニング・チェア","textColor":"white"},
 						{"type":"image","src":"sleeping_char.jpg"},
-						{"type":"content","txt":"時には椅子、時にはベッドになるぞ！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"時には椅子、時にはベッドになるぞ！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -381,7 +388,7 @@
 				{
 					"card":[
 						{"type":"header","txt":"物干しロープ","textColor":"white"},
-						{"type":"content","txt":"バスタオル等がかけてある。見栄えは悪いが便利。","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"バスタオル等がかけてある。見栄えは悪いが便利。","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -397,7 +404,7 @@
 					"card":[
 						{"type":"header","txt":"用具箱","textColor":"white"},
 						{"type":"image","src":"small_items_box.jpg"},
-						{"type":"content","txt":"細かいパーツやSDカードはここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"細かいパーツやSDカードはここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.23}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
