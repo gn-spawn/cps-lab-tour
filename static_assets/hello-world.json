@@ -210,8 +210,8 @@
         {
 	        "card":[
             {"type":"header","txt":"3Dプリンター","textColor":"white"},
-						{"type":"content","txt":"これは3Dプリンターです","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"3dprinter.jpg"}
+						{"type":"image","src":"3dprinter.jpg"},
+						{"type":"content","txt":"これは3Dプリンターです","textColor":"white","fontSize":0.3}
 	   			],
 	        "width":3,
 	        "backgroundColor":"#00000099",
@@ -219,13 +219,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 	        "rotateY":3,
-	        "rotateX":-25
+	        "rotateX":-25,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
         },
 				{
 					"card":[
 						{"type":"header","txt":"収納ボックス","textColor":"white"},
-						{"type":"content","txt":"センサーやケーブル、開発器具を入れる。きちんとしまおう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"items_box.jpg"}
+						{"type":"image","src":"items_box.jpg"},
+						{"type":"content","txt":"センサーやケーブル、開発器具を入れる。きちんとしまおう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -233,13 +235,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":-40,
-					"rotateX":0
+					"rotateX":0,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
 						{"type":"header","txt":"作業台","textColor":"white"},
-						{"type":"content","txt":"はんだごてやドリルなどが置いてある、電子工作向けの作業台。挑戦しよう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"craft_area.jpg"}
+						{"type":"image","src":"craft_area.jpg"},
+						{"type":"content","txt":"はんだごてやドリルなどが置いてある、電子工作向けの作業台。挑戦しよう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -247,7 +251,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":95,
-					"rotateX":-25
+					"rotateX":-25,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
@@ -260,7 +266,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":200,
-					"rotateX":-15
+					"rotateX":-15,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
@@ -273,13 +281,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":-53,
-					"rotateX":-25
+					"rotateX":-25,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
 						{"type":"header","txt":"プリンター","textColor":"white"},
-						{"type":"content","txt":"研究室でメインとなるプリンター。設定しよう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"printer.jpg"}
+						{"type":"image","src":"printer.jpg"},
+						{"type":"content","txt":"研究室でメインとなるプリンター。設定しよう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -287,13 +297,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":13,
-	        "rotateX":-12
+	        "rotateX":-12,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
 						{"type":"header","txt":"ねどこ","textColor":"white"},
-						{"type":"content","txt":"机の下に潜って寝る。おもったより寝心地はいいぞ！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"sleeping_under_the_desk.jpg"}
+						{"type":"image","src":"sleeping_under_the_desk.jpg"},
+						{"type":"content","txt":"机の下に潜って寝る。おもったより寝心地はいいぞ！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -301,7 +313,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":131,
-					"rotateX":-35
+					"rotateX":-35,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				}
 			],
 			"preloads":[
@@ -320,8 +334,8 @@
 				{
 					"card":[
 						{"type":"header","txt":"窓","textColor":"white"},
-						{"type":"content","txt":"景色はいい。見おろそう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"night_scene_from_window.jpg"}
+						{"type":"image","src":"night_scene_from_window.jpg"},
+						{"type":"content","txt":"景色はいい。見おろそう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000099",
@@ -329,7 +343,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":130,
-					"rotateX":10
+					"rotateX":10,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
@@ -342,13 +358,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":175,
-					"rotateX":-12
+					"rotateX":-12,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
 						{"type":"header","txt":"チェア","textColor":"white"},
-						{"type":"content","txt":"時には椅子、時にはベッドになる。寝よう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"sleeping_char.jpg"}
+						{"type":"image","src":"sleeping_char.jpg"},
+						{"type":"content","txt":"時には椅子、時にはベッドになる。寝よう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -356,7 +374,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":215,
-					"rotateX":-38
+					"rotateX":-38,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
@@ -369,13 +389,15 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":70,
-					"rotateX":25
+					"rotateX":25,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				},
 				{
 					"card":[
 						{"type":"header","txt":"用具箱","textColor":"white"},
-						{"type":"content","txt":"細かい用具はここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.3},
-						{"type":"image","src":"small_items_box.jpg"}
+						{"type":"image","src":"small_items_box.jpg"},
+						{"type":"content","txt":"細かい用具はここに入っている。なくさないようにしよう！","textColor":"white","fontSize":0.3}
 					],
 					"width":3,
 					"backgroundColor":"#00000055",
@@ -383,7 +405,9 @@
 					"iconWidth":0.3,
 					"iconHeight":0.3,
 					"rotateY":53,
-					"rotateX":-20
+					"rotateX":-20,
+					"cardBorderWidth": 0.02,
+					"borderColor":"#33CCCC"
 				}
 			]
 		}
