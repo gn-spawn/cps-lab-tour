@@ -17,7 +17,7 @@
 					"card":[
 						{"type":"header","txt":"4Kモニター","ratio":1.7},
 						{"type":"image","src":"4kmonitor.jpg"},
-						{"type":"content","txt":"画面がすごく大きいモニター","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"デカすぎて逆に見づらいモニター。画像処理系の開発の際に力を発揮しそう。","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -132,7 +132,7 @@
 					"card":[
 						{"type":"header","txt":"ベッド","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"bed.jpg"},
-						{"type":"content","txt":"最も快適な寝床。ソファとしても使える","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"最も人権があり快適な寝床。ソファとしても使える","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
@@ -164,7 +164,7 @@
 					"card":[
 						{"type":"header","txt":"炊飯器とポッド","ratio":1.7,"textColor":"white"},
 						{"type":"image","src":"pod.jpg"},
-						{"type":"content","txt":"ご飯を炊ける。","textColor":"white","fontSize":0.3}
+						{"type":"content","txt":"お惣菜を買ってきて焚いた米を食べると優勝できる。","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
