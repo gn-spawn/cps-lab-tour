@@ -114,7 +114,8 @@
 			"infos":[
 				{
 					"card":[
-						{"type":"header","txt":"4Kテレビ","ratio":1.7},
+						{"type":"header","txt":"4Kテレビ","ratio":1.7,"textColor":"white"},
+						{"type":"image","src":"tv.jpg"},
 						{"type":"content","txt":"研究室生活には欠かせないテレビ。AppleTVやゲームもあり、研究生活の「息抜き」になっている","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
@@ -127,33 +128,22 @@
 				},
 				{
 					"card":[
-						{"type":"header","txt":"ホワイトボード","ratio":1.7},
-						{"type":"content","txt":"いろいろ書ける","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"ベッド","ratio":1.7,"textColor":"white"},
+						{"type":"image","src":"bed.jpg"},
+						{"type":"content","txt":"最も快適な寝床。ソファとしても使える","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
 					"icon":"icons/info.png",
 					"iconWidth":0.3,
 					"iconHeight":0.3,
-					"rotateY":90
+					"rotateY":40,
+					"rotateX":-30
 				},
 				{
 					"card":[
-						{"type":"header","txt":"食品","ratio":1.7},
-						{"type":"content","txt":"いろいろな食材","textColor":"white","fontSize":0.3}
-					],
-					"width":4.6,
-					"backgroundColor":"#00000055",
-					"icon":"icons/info.png",
-					"iconWidth":0.3,
-					"iconHeight":0.3,
-					"rotateY":10,
-					"rotateX":-10
-				},
-				{
-					"card":[
-						{"type":"header","txt":"れいぞう","ratio":1.7},
-						{"type":"content","txt":"いろいろな食材","textColor":"white","fontSize":0.3}
+						{"type":"header","txt":"冷蔵庫と電子レンジ","ratio":1.7},
+						{"type":"content","txt":"お酒や飲み物で埋め尽くされている。電子レンジでレトルト食品を食べれば食費が浮くぞ！","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
 					"backgroundColor":"#00000055",
