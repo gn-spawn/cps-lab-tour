@@ -12,7 +12,7 @@ import { LiveTour } from 'live-tour-lab';
 export default class cps_lab_tour extends React.Component {
   render() {
     return (
-      <LiveTour tourURI='hello-world.json' />
+      <LiveTour tourURI='cpslab.json' />
     );
   }
 };
