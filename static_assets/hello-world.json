@@ -12,6 +12,88 @@
 			"photopanos":[
 				{"src":"lab1.jpg","rotateY": 75}
 			],
+			"infos":[
+				{
+					"card":[
+						{"type":"header","txt":"4Kモニター","ratio":1.7},
+						{"type":"image","src":"4kmonitor.jpg"},
+						{"type":"content","txt":"画面がすごく大きいモニター","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":55,
+					"rotateX":-10,
+					"cardBorderWith": 0.02,
+					"borderColor":"#22222255"
+				},
+				{
+					"card":[
+						{"type":"header","txt":"モンスターPC","ratio":1.7, "textColor":"white"},
+						{"type":"image","src":"monster.jpg"},
+						{"type":"content","txt":"めっちゃハイスペック。GPUにTitanX二枚刺しのバケモン","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":55,
+					"rotateX":-50,
+					"cardBorderWith": 0.02,
+					"borderColor":"#22222255"
+				},
+				{
+					"card":[
+						{"type":"header","txt":"サイネージとお天気IoT","ratio":1.7, "textColor":"white"},
+						{"type":"image","src":"iot.jpg"},
+						{"type":"content","txt":"天気とか気温とか時間とか見れる。便利","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-50,
+					"rotateX":-10,
+					"cardBorderWith": 0.02,
+					"borderColor":"#22222255"
+				},
+				{
+					"card":[
+						{"type":"header","txt":"靴箱","ratio":1.7, "textColor":"white"},
+						{"type":"image","src":"shoesbox.jpg"},
+						{"type":"content","txt":"整理されていることは少ない","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-60,
+					"rotateX":-30,
+					"cardBorderWith": 0.02,
+					"borderColor":"#22222255"
+				},
+				{
+					"card":[
+						{"type":"header","txt":"ボルダリングのホールド","ratio":1.7, "textColor":"white"},
+						{"type":"image","src":"hold.jpg"},
+						{"type":"content","txt":"鍛えよう！","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":140,
+					"rotateX":37,
+					"cardBorderWith": 0.02,
+					"borderColor":"#22222255"
+				}
+			],
 			"navs":[
 				{"to":"Television","txt":"Move", "rotateY": 75},
 				{"to":"3DPrinter", "txt":"Move", "rotateY":0}
