@@ -26,7 +26,7 @@
 					"iconHeight":0.3,
 					"rotateY":55,
 					"rotateX":-10,
-					"cardBorderWith": 0.02,
+					"cardBorderWidth": 0.02,
 					"borderColor":"#22222255"
 				},
 				{
@@ -42,7 +42,7 @@
 					"iconHeight":0.3,
 					"rotateY":55,
 					"rotateX":-50,
-					"cardBorderWith": 0.02,
+					"cardBorderWidth": 0.02,
 					"borderColor":"#22222255"
 				},
 				{
@@ -58,7 +58,7 @@
 					"iconHeight":0.3,
 					"rotateY":-50,
 					"rotateX":-10,
-					"cardBorderWith": 0.02,
+					"cardBorderWidth": 0.02,
 					"borderColor":"#22222255"
 				},
 				{
@@ -74,7 +74,7 @@
 					"iconHeight":0.3,
 					"rotateY":-60,
 					"rotateX":-30,
-					"cardBorderWith": 0.02,
+					"cardBorderWidth": 0.02,
 					"borderColor":"#22222255"
 				},
 				{
@@ -90,7 +90,7 @@
 					"iconHeight":0.3,
 					"rotateY":140,
 					"rotateX":37,
-					"cardBorderWith": 0.02,
+					"cardBorderWidth": 0.02,
 					"borderColor":"#22222255"
 				}
 			],
@@ -142,7 +142,7 @@
 				},
 				{
 					"card":[
-						{"type":"header","txt":"冷蔵庫と電子レンジ","ratio":1.7},
+						{"type":"header","txt":"冷蔵庫と電子レンジ","ratio":1.7,"textColor":"white"},
 						{"type":"content","txt":"お酒や飲み物で埋め尽くされている。電子レンジでレトルト食品を食べれば食費が浮くぞ！","textColor":"white","fontSize":0.3}
 					],
 					"width":4.6,
@@ -152,6 +152,34 @@
 					"iconHeight":0.3,
 					"rotateY":-22,
 					"rotateX":-10
+				},
+				{
+					"card":[
+						{"type":"header","txt":"炊飯器とポッド","ratio":1.7,"textColor":"white"},
+						{"type":"image","src":"pod.jpg"},
+						{"type":"content","txt":"ご飯を炊ける。","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":-7,
+					"rotateX":-15
+				},
+				{
+					"card":[
+						{"type":"header","txt":"レトルト食品たち","ratio":1.7,"textColor":"white"},
+						{"type":"image","src":"food.jpg"},
+						{"type":"content","txt":"残留飯の要。レトルト食品とご飯を炊けば完璧だ","textColor":"white","fontSize":0.3}
+					],
+					"width":4.6,
+					"backgroundColor":"#00000055",
+					"icon":"icons/info.png",
+					"iconWidth":0.3,
+					"iconHeight":0.3,
+					"rotateY":10,
+					"rotateX":-15
 				}
 			],
 			"preloads":[
