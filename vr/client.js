@@ -26,6 +26,15 @@ function init(bundle, parent, options) {
       // Pass it to the boilerplate init code
       const vr = new VRInstance(bundle, 'cps_lab_tour', parent, {
         // Pass in the custom font as an initialization property
+        raycasters: [
+          {
+            getType: () => "mycursor",
+            getRayOrigin: () => [0, 0, 0],
+            getRayDirection: () => [0, 0, -1],
+            drawsCursor: () => true
+          }
+        ],
+        cursorVisibility: 'visible',
         font: font,
         ...options,
       });
@@ -38,7 +47,7 @@ function init(bundle, parent, options) {
       return vr;
     }
   }
-  
+
   for (var key in fallbackFonts) {
     // allow each font to asynchronously load in parallel and start VR instance when all complete
     count++;
